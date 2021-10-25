@@ -86,3 +86,126 @@ body {
   right: 0;
   bottom: 0;
 }
+
+.slide {
+  border-radius: 20px; 
+  min-height: 400px;
+  display: flex;
+  padding: 100px;
+}
+
+.slide-text-light {
+  background-color: grey;
+  color:white;
+}
+
+.slide-content {
+  max-width: 400px;
+}
+.slide-title {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 51px;
+}
+
+.slide-text {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 23px;
+  margin-bottom: 30px;
+}
+
+.button-default {
+  background: #fff;
+  color: black;
+}
+
+.button-primary {
+  background: #f47322;
+  color:white;
+}
+
+.button {
+  border-radius: 25px;
+  padding: 12px 50px;
+  display: inline-block;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+.slide-summer {
+  background-image: url('../img/summer.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.promo {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 32px;
+  max-width: 570px;
+  max-height: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.card-text-light {
+  color: white;
+}
+
+.card-title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 23px;
+  margin-top: 4px;
+  margin-bottom: 21px;
+}
+
+.card-description {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  max-width: 200px;
+}
+
+.card-price {
+  display: block;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 23px;
+  margin-bottom: 8px;
+}
+
+.card-delivery {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  margin-bottom: 25px;
+}
+
+.sweet-basket {
+  background-image: url('../img/sweet.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.salad {
+  background-image: url('../img/salad.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
